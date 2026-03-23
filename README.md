@@ -1,26 +1,42 @@
-# Raylib C++ Starter Template
+# 🏓 PONG_GAME
 
-Raylib C++ Starter Template for Visual Studio Code on Windows.
+A classic, retro Pong clone built from scratch using C++ and [Raylib](https://www.raylib.com/). 
 
-This demo project contains a bouncing ball raylib example program.
+![Pong Game Preview](preview.jpg)
 
-It works with raylib version 4.5.
-Tested on both Windows 10 and Windows 11.
+## 🎮 Features
+* **Player vs. CPU:** Face off against a dynamically tracking AI paddle.
+* **Score Tracking:** Real-time score updates for both the player and the CPU.
+* **Progressive Difficulty:** Randomized ball launch trajectories on every reset.
+* **Smooth Rendering:** Runs at a targeted 60 FPS with modern graphics using Raylib.
 
-# Video Tutorial
+## 🛠️ Built With
+* **C++17**
+* **Raylib 5.5**
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
+## 🚀 Getting Started (Ubuntu / Linux)
 
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
+### Prerequisites
+Make sure you have a C++ compiler and the Raylib dependencies installed on your system.
+```bash
+sudo apt update
+sudo apt install build-essential git
+sudo apt install libasound2-dev libx11-dev libxrandr-dev libxi-dev libgl1-mesa-dev libglu1-mesa-dev libxcursor-dev libxinerama-dev libwayland-dev libxkbcommon-dev
+Installation & Running
+Clone the repository:
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="https://www.programmingwithnick.com">My Website</a> | <br>
-</p>
+Bash
+git clone [https://github.com/Anjas2005/PONG_GAME.git](https://github.com/Anjas2005/PONG_GAME.git)
+cd PONG_GAME
+Build the game using the provided Makefile:
 
+Bash
+make
+Run the executable:
+
+Bash
+./game
+🕹️ Controls
+Up Arrow: Move Paddle Up
+
+Down Arrow: Move Paddle Down
