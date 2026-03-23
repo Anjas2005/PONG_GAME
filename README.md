@@ -2,7 +2,9 @@
 
 A classic, retro Pong clone built from scratch using C++ and [Raylib](https://www.raylib.com/). 
 
-[Pong Game Preview]<img width="1287" height="804" alt="image" src="https://github.com/user-attachments/assets/738af866-4de2-414b-9b9d-3a99312f2298" />
+[Pong Game Preview]
+<img width="1290" height="803" alt="image" src="https://github.com/user-attachments/assets/5a4e7e01-74eb-411a-b364-aeb19ed524d4" />
+
 
 
 ## 🎮 Features
