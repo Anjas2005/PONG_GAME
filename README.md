@@ -2,7 +2,8 @@
 
 A classic, retro Pong clone built from scratch using C++ and [Raylib](https://www.raylib.com/). 
 
-![Pong Game Preview](preview.jpg)
+![Pong Game Preview](<img width="1287" height="804" alt="image" src="https://github.com/user-attachments/assets/738af866-4de2-414b-9b9d-3a99312f2298" />
+)
 
 ## 🎮 Features
 * **Player vs. CPU:** Face off against a dynamically tracking AI paddle.
